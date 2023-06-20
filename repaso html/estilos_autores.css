@@ -1,3 +1,7 @@
+body{
+    background-image: url(https://us.123rf.com/450wm/pitsvector/pitsvector1610/pitsvector161000147/67664951-ilustraci%C3%B3n-de-vector-de-fondo-espacio-y-estrella.jpg);
+}
+
 #container{
     margin: 0px auto;
     width: 70%;
@@ -15,4 +19,8 @@ h1{
 
 img{
     width: 20px;
+}
+
+img:hover{
+    width: 200px;
 }
