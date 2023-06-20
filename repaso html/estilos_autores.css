@@ -10,6 +10,7 @@ body{
     margin: 0px auto;
     width: 70%;
     border: 2px solid gray;
+    border-radius: 10px;
     background-image: url(https://www.todofondos.net/wp-content/uploads/todofondos-colorespasteles5-1024x640.jpg);
 }
 
