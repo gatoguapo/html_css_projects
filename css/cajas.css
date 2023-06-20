@@ -1,0 +1,36 @@
+div {
+width: 200px;   
+height: 200px;
+background: #8E44AD;
+color:#F7F9F9;
+font-size: 30px;
+/*float sirve para hacer la tipica barra de opciones de las paginas web*/
+float: left;
+}
+
+/*.caja1{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 250px;
+}
+
+.caja2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 250px;
+}
+
+.caja_padre {
+    width: 200px;   
+    height: 200px;
+    background: white;
+    position: relative;
+    top: 10px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}

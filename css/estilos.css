@@ -1,0 +1,172 @@
+/*con body modificamos todo el documento*/
+/*con background modificamos el fondo*/
+/*con color modificamos el color del texto*/
+/*font size para el tamano de la fuente*/
+/*un em equivale a la cantidad de n pixeles en nuestro font-size*/
+body {
+	background:url(../imagenes/fondo.jpg);
+	background-repeat:1;
+	/*se usa para que el fondo se quede fijo en la pantalla*/
+	background-attachment: fixed;
+	/*el primer px lo mueve para la derecha y el segundo para abajo,
+	si no tiene valores se cuenta desde la esquina superior izquierda
+	y si pones center 0 te lo centra en todo el documento*/
+	/*background-position:500px 200px*/
+	color:#148F77;
+}
+
+h1,h2 {
+	color:#1A5276;
+}
+
+h1{
+	font-size:60px;
+}
+
+h2{
+	font-size:30px;
+}
+
+/*cite, blockquote{
+	color:black;
+}*/
+
+blockquote{
+	font-size:20px;
+}
+
+
+.red {
+	color:#C0392B;
+}
+
+a[href="https://www.youtube.com/watch?v=9EiinQ1QNXU"]{
+	color:#F4F6F7;
+}
+
+div {
+	background:#000;
+	color:#E74C3C;
+	width: 340px; /*tambien podemos usar porcentajes como 100%,50% etc*/
+	height: 70px;
+	margin: 10px 20px;
+	padding: 1em;
+	border: 10px solid #ECF0F1;
+	/*display block o inliner-block para poner los bloques seguidos*/
+}
+
+p {
+	font-family: "Verdana";
+}
+
+.p1 {
+	text-align: center;
+	color:black;
+	/*text decoration underline, overline y none*/
+	text-decoration: none;
+	text-shadow: 5px 5px 5px #000;
+}
+
+.p1,.p2,.p3 {
+	color:black;
+	/*line height para interlineado*/
+	line-height: 20px;
+}
+
+h1 {
+	/*font normal para quitarle las negritas a los titulos de los articulos*/
+	font-weight: normal;
+	/*uppercase y lowercase para poner todo en mayusculas o minusculas*/
+	text-transform: uppercase;
+}
+
+.a2 {
+	text-decoration:none;
+}
+
+.a1,.a2,.a3,.a4,.a5,.a6{
+	margin-right:10px ;
+}
+
+a:link{
+	color:#208bce;
+}
+
+/*a:hover sirve para poner un efecto cuando pasas el mouse por un link*/
+/*a:hover{
+	text-decoration: underline;
+	font-size: 20px;
+	background-color: #000;
+	color: #ECF0F1;
+}*/
+
+/*a:active sirve para poner un color cuando hacer click en un enlace*/
+/*a:active{
+	color: #E74C3C;
+}*/
+
+.a1,.a2,.a3,.a4,.a5,.a6{
+	padding: 5px;
+	display: inline-block;
+	background:#E74C3C;
+	color: #ECF0F1;
+	box-shadow: 0px 5px 0px #B03A2E;
+	text-decoration: none;
+}
+
+.a1:hover,.a2:hover,.a3:hover,.a4:hover,.a5:hover,.a6:hover{
+	box-shadow: 0px 2px 0px #B03A2E
+}
+
+.a1:active,.a2:active,.a3:active,.a4:active,.a5:active,.a6:active{
+	background:#E74C3C;
+	box-shadow: none;
+}
+
+button {
+	background: #E74C3C;
+	height: 40px;
+	width: 60px;
+	display: inline-block;
+	color: #F4F6F7;
+	border:none;
+}
+
+button:hover {
+	background: #B03A2E;
+}
+
+button:active {
+	background: hsl(0, 78%, 27%);
+}
+
+.xester {
+	/*siempre tratar de usar porcentajes en las imagenes*/
+	width: 10%;
+	height: auto;
+	/*con margin auto podemos centrar nuestra imagen*/
+	margin: auto;
+	display: block;
+	border-radius: 10px;
+	background: #F4F6F7;
+	padding: 10px;
+	border:1px solid #000;
+	background-position:0 -10px;
+	position: relative;
+}
+
+.xesterp{
+	background: #f7e580d8;
+	width: 50%;
+	border:none;
+}
+
+.chester{
+	width: 100px;
+	height: auto;
+	margin: auto;
+	/*display block es un salto de linea*/
+	display: block;
+	border-radius: 100%;
+	box-shadow: 5px 5px 0px #ccc;
+}

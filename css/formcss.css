@@ -1,0 +1,44 @@
+
+form{
+    width: 25%;
+    border: 2px solid #1A5276;
+    margin: 20px;
+    padding: 20px;
+}
+
+label {
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #5499C7;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #6C3483;
+}
+
+input[type ="submit"] {
+    margin-bottom: 10px;
+    background: #1F618D;
+    color: #fff;
+    border:none;
+}
+
+input[type ="submit"]:hover{
+    background: #5499C7;
+    cursor: pointer;
+}
+
+input[type ="checkbox"] {
+    margin-bottom: 10px;
+    background: #1F618D;
+    width: auto;
+    display: inline-flex;
+}

@@ -1,0 +1,82 @@
+/*para quitarle los margins y paddings por defecto a todos los elementos*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin-bottom: 10px;
+}
+
+h2,h3 {
+    color:#052940;
+}
+
+header, .main, footer {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+body, .main{
+    background: #FAD7A0;
+    color: #2D7AAC;
+}
+
+header nav{
+    background-color: #2D7AAC;
+    /*para acomodar nuestros floats*/
+    overflow: hidden;
+}
+
+header li{
+    /*para quitarle los puntitos a las listas*/
+    list-style: none;
+}
+
+header nav ul li{
+    float:left;
+}
+
+header nav ul li a{
+    padding: 10px 20px;
+    /*si no pones esto el padding no funciona*/
+    display: block;
+    color:#fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    background: #20A2F5;
+    color:#052940;
+    cursor: pointer;
+}
+
+.main .articles {
+    /*siempre restarle el porcentaje que anadas del margen al width*/
+    width: 58.5%;
+    margin: 1.5%;
+    float: left;
+}
+
+.main .articles article{
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+aside {
+    width: 28%;
+    background: #D5DBDB;
+    float:left;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+footer {
+    background: #000;
+    color:#fff;
+    clear:both;
+    padding: 10px 0px;
+    text-align: center;
+}
