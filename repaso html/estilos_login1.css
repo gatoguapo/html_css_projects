@@ -13,14 +13,19 @@
 
 #second_container{
     width: 49%;
-    height: 200px;
+    height: 100%;
     float: right;
     border: solid 2px black;
 }
 
+#second_container h1{
+    margin-left: 35%;
+    margin-top: 30%;
+}
+
 #first_container{
-    width: 49%;
-    height: 200px;
+    width: 50%;
+    height: 100%;
     float: left;
     border: solid 2px blue;
 }
