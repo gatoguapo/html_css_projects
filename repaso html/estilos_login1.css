@@ -8,49 +8,51 @@
     margin-top: 10%;
     width: 50%;
     height: 500px;
-    border: solid 2px red;
+    border: solid 2px cadetblue;
+    border-radius: 4px;
 }
 
 #first_container{
     width: 50%;
     height: 100%;
     float: left;
-    border: solid 2px blue;
 }
 
 #second_container{
     width: 49%;
     height: 100%;
     float: right;
-    border: solid 2px black;
 }
 
 #second_container h1{
     margin-left: 35%;
-    margin-top: 30%;
+    margin-top: 25%;
 }
 
 .subtitle {
     margin-left: 38%;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 
 #txt_username {
-    margin-left: 30%;
-    height: 25px;
-    border-radius: 5px;
+    margin-left: 26%;
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 4px;
     box-shadow: 2px 5px rgb(141, 205, 207);
     border-color: cadetblue;
     color: cadetblue;
 }
 
 #txt_password {
-    margin-left: 30%;
-    height: 25px;
-    border-radius: 5px;
+    margin-left: 26%;
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 4px;
     box-shadow: 2px 5px rgb(141, 205, 207);
     border-color: cadetblue;
+    color: cadetblue;
 }
 
 ::placeholder{
