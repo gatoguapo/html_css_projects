@@ -10,3 +10,10 @@
     height: 500px;
     border: solid 2px red;
 }
+
+#second_container{
+    width: 50%;
+    height: 200px;
+    float: right;
+    border: solid 2px black;
+}
