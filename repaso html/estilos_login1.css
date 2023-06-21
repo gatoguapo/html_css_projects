@@ -17,3 +17,10 @@
     float: right;
     border: solid 2px black;
 }
+
+#first_container{
+    width: 49%;
+    height: 200px;
+    float: left;
+    border: solid 2px blue;
+}
