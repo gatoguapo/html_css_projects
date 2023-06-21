@@ -11,6 +11,13 @@
     border: solid 2px red;
 }
 
+#first_container{
+    width: 50%;
+    height: 100%;
+    float: left;
+    border: solid 2px blue;
+}
+
 #second_container{
     width: 49%;
     height: 100%;
@@ -23,9 +30,9 @@
     margin-top: 30%;
 }
 
-#first_container{
-    width: 50%;
-    height: 100%;
-    float: left;
-    border: solid 2px blue;
+.subtitle {
+    margin-left: 38%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
