@@ -38,5 +38,9 @@
 
 #txt_username {
     margin-left: 30%;
+    height: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 5px rgb(141, 205, 207);
+    border-color: cadetblue;
 }
 
