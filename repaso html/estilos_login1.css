@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
@@ -44,6 +45,7 @@ body {
 #txt_username {
     margin-left: 26%;
     padding: 6px;
+    width: 210px;
     font-size: 15px;
     border-radius: 4px;
     box-shadow: 2px 5px rgb(17, 94, 167);
@@ -54,6 +56,7 @@ body {
 #txt_password {
     margin-left: 26%;
     padding: 6px;
+    width: 210px;
     font-size: 15px;
     border-radius: 4px;
     box-shadow: 2px 5px rgb(17, 94, 167);
