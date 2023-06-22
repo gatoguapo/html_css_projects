@@ -60,6 +60,13 @@
 }
 
 #submit {
-    margin-top: 20px;
-    margin-left: 45%;
+    margin-top: 28px;
+    margin-left: 38%;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: rgb(17, 94, 167);
+    color: whitesmoke;
+    background: linear-gradient(to right, rgb(17, 94, 167), rgb(28, 173, 218));
 }
