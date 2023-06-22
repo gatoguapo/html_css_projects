@@ -8,7 +8,7 @@
     margin-top: 10%;
     width: 50%;
     height: 500px;
-    border: solid 2px cadetblue;
+    background: linear-gradient(to right, rgb(17, 94, 167), rgb(28, 173, 218));
     border-radius: 4px;
 }
 
@@ -40,9 +40,9 @@
     padding: 6px;
     font-size: 15px;
     border-radius: 4px;
-    box-shadow: 2px 5px rgb(141, 205, 207);
-    border-color: cadetblue;
-    color: cadetblue;
+    box-shadow: 2px 5px rgb(17, 94, 167);
+    border-color: rgb(28, 173, 218);
+    color: rgb(28, 173, 218);
 }
 
 #txt_password {
@@ -50,11 +50,11 @@
     padding: 6px;
     font-size: 15px;
     border-radius: 4px;
-    box-shadow: 2px 5px rgb(141, 205, 207);
-    border-color: cadetblue;
-    color: cadetblue;
+    box-shadow: 2px 5px rgb(17, 94, 167);
+    border-color: rgb(28, 173, 218);
+    color: rgb(28, 173, 218);
 }
 
 ::placeholder{
-    color: cadetblue;
+    color: rgb(28, 173, 218);
 }
