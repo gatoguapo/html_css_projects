@@ -94,27 +94,40 @@ body {
 }
 
 #submit {
-    margin-top: 28px;
+    margin-top: 35px;
     margin-left: 40%;
     padding: 5px;
     width: 110px;
     height: 40px;
     border-radius: 8px;
-    background-color: rgb(17, 94, 167);
-    border: none;
+    border: solid 1px whitesmoke;
+    background-color: rgb(28, 173, 218);
     font-size: 17px;
     color: whitesmoke;
 }
 
 #submit:hover{
-    margin-top: 28px;
+    margin-top: 35px;
     margin-left: 40%;
     padding: 5px;
     width: 110px;
     height: 40px;
     border-radius: 8px;
     border: solid 2px whitesmoke;
-    background-color: rgb(17, 94, 167);
+    background-color: rgb(28, 173, 218);
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+#submit:active {
+    margin-top: 35px;
+    margin-left: 40%;
+    padding: 5px;
+    width: 110px;
+    height: 40px;
+    border-radius: 8px;
+    border: solid 2px whitesmoke;
+    background-color: rgb(192, 210, 228);
     font-size: 16px;
     color: whitesmoke;
 }
