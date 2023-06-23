@@ -94,13 +94,13 @@ body {
 
 #submit {
     margin-top: 28px;
-    margin-left: 38%;
+    margin-left: 40%;
     padding: 5px;
-    width: 100px;
-    height: 30px;
-    border-radius: 10px;
-    border-color: rgb(17, 94, 167);
+    width: 110px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(17, 94, 167);
+    border: none;
+    font-size: 17px;
     color: whitesmoke;
-    background: linear-gradient(to right, rgb(17, 94, 167), rgb(28, 173, 218));
-    
 }
