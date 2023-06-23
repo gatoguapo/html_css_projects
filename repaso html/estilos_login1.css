@@ -46,9 +46,10 @@ body {
 }
 
 #second_container h1{
-    margin-left: 35%;
+    margin-left: 32%;
     margin-top: 25%;
     color: aliceblue;
+    font-size: 40px;
 }
 
 .subtitle {
