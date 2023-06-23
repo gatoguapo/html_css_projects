@@ -5,8 +5,8 @@
 }
 
 #orange_cat {
-    width: 400px;
-    margin-top: 120px;
+    width: 450px;
+    margin-top: 100px;
     margin-left: 20%;
     border-radius: 10px;
     mix-blend-mode: hard-light;
@@ -14,7 +14,7 @@
 
 #cat_logo {
     width: 80px;
-    margin-right: 35%;
+    margin-right: 37%;
     padding: 10px;
     float: right;
 }
@@ -61,7 +61,7 @@ body {
 #txt_username {
     margin-left: 26%;
     padding: 6px;
-    width: 210px;
+    width: 220px;
     border:0;
     border-bottom:1px solid #eee;
     font-size: 15px;
@@ -76,7 +76,7 @@ body {
     padding: 6px;
     border:0;
     border-bottom:1px solid #eee;
-    width: 210px;
+    width: 220px;
     font-size: 15px;
     border-radius: 4px;
     box-shadow: 2px 5px rgb(17, 94, 167);
