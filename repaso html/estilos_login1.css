@@ -63,7 +63,7 @@ body {
 #txt_username {
     margin-left: 26%;
     padding: 6px;
-    width: 220px;
+    width: 240px;
     height: 20px;
     border:0;
     border-bottom:1px solid #eee;
@@ -79,7 +79,7 @@ body {
     padding: 6px;
     border:0;
     border-bottom:1px solid #eee;
-    width: 220px;
+    width: 240px;
     height: 20px;
     font-size: 15px;
     border-radius: 4px;
