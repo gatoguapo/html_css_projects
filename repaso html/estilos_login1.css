@@ -4,6 +4,12 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+#orange_cat {
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 25%;
+}
+
 body {
     background-color: whitesmoke;
 }
