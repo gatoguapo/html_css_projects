@@ -27,7 +27,7 @@ body {
     margin-left: 25%;
     margin-top: 10%;
     width: 50%;
-    height: 500px;
+    height: 600px;
     background: linear-gradient(to right, rgb(17, 94, 167), rgb(28, 173, 218));
     border-radius: 10px;
 }
@@ -35,12 +35,13 @@ body {
 #first_container{
     width: 50%;
     height: 100%;
+    margin-top: 70px;
     float: left;
 }
 
 #second_container{
     width: 49%;
-    margin-top: 40px;
+    margin-top: 70px;
     height: 100%;
     float: right;
 }
