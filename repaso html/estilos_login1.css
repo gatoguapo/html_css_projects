@@ -64,6 +64,7 @@ body {
     margin-left: 26%;
     padding: 6px;
     width: 220px;
+    height: 20px;
     border:0;
     border-bottom:1px solid #eee;
     font-size: 15px;
@@ -79,6 +80,7 @@ body {
     border:0;
     border-bottom:1px solid #eee;
     width: 220px;
+    height: 20px;
     font-size: 15px;
     border-radius: 4px;
     box-shadow: 2px 5px rgb(17, 94, 167);
