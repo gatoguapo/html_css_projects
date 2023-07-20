@@ -5,6 +5,8 @@ body{
 }
 
 .grid-layout {
+    display: grid;
+    grid-template-columns: auto auto auto;
     width: 80%;
     margin: 0 auto;
     background-color: lightgreen;
