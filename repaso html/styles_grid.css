@@ -4,6 +4,13 @@ body{
     text-align: center;
 }
 
+.grid-layout {
+    width: 80%;
+    margin: 0 auto;
+    background-color: lightgreen;
+    padding: 20px;
+    border: 1px solid black;
+}
 
 .box {
     width: 150px;
@@ -13,5 +20,4 @@ body{
     margin: 15px;
     text-align: center;
     line-height: 150px;
-    float: left;
 }
