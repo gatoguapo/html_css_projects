@@ -38,3 +38,8 @@ body{
     grid-column: 3/4;
     background: lightsalmon;
 }
+
+.b10 {
+    grid-column: 2/4;
+    background-color: lightseagreen;
+}
